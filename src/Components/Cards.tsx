@@ -15,7 +15,7 @@ function Card(props: any) {
           <span className="desc">{props.item.description}</span>
         </div>
         <p className="--hero-price">
-          <span className="bold"> From ${props.item.price}</span>/ person
+          <span className="bold"> From ${props.item.price}</span>
         </p>
       </div>
     </>
