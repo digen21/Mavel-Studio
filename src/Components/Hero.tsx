@@ -1,5 +1,5 @@
 import React from "react";
-import data from "../data";
+import data from "../api";
 
 function Hero(props: any) {
   console.log(data);

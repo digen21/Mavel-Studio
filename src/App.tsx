@@ -3,8 +3,7 @@ import Header from "./Components/Header";
 import Card from "./Components/Cards";
 import Hero from "./Components/Hero";
 
-import data from "./data";
-console.log(data);
+import data from "./api";
 
 function App() {
   const lists = data.map((item) => {
