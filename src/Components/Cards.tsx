@@ -5,7 +5,7 @@ function Card(props: any) {
       <div className="--hero-card">
         <img src={props.item.coverImg} alt="" />
         <div className="--card-stats">
-          <img src="/star.svg" alt="" className="star" />
+          <img src="/star.png" alt="" className="star" />
           <span className="rating">{props.item.stats.rating}</span>
           <span className="gray">({props.item.stats.reviewCount})</span>
           <span className="gray">{props.item.location}</span>
