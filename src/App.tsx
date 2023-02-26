@@ -7,7 +7,6 @@ import data from "./api";
 
 function App() {
   const lists = data.map((item) => {
-    console.log(item);
     return <Card key={item.id} item={item} />;
   });
 
