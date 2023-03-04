@@ -14,9 +14,14 @@ function Card(props: any) {
         <div className="--hero-desc">
           <span className="desc">{props.item.description}</span>
         </div>
-        <p className="--hero-price">
-          <span className="bold"> From ${props.item.price}</span>
-        </p>
+        <div className="--card-footer">
+          <p className="--hero-price">
+            <span className="bold"> From ${props.item.price}</span>
+          </p>
+          <span className="--trailer-btn">
+            Watch Trailer <i className="uil uil-play"></i>
+          </span>
+        </div>
       </div>
     </>
   );

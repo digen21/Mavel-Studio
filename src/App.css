@@ -98,8 +98,9 @@ section {
   padding: 30px 50px;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 3rem;
 
 }
 
@@ -176,14 +177,47 @@ section {
 }
 
 
-.--hero-price {
+.--card-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
   margin-top: -10px;
+}
+
+.--trailer-btn {
+  margin-right: 10px;
+  padding: 3px 8px;
+  float: right;
+  font-size: 0.5rem;
+  letter-spacing: 0.2px;
+  border-radius: 3px;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #dadada;
+  box-shadow: 3px 4px 1px rgba(0, 0, 0, 1);
+  transition: 0.3s ease;
+}
+
+
+.--trailer-btn:hover {
+  transform: scale(1.1)
+}
+
+.--trailer-btn>.uil-play {
+  margin-left: 1px;
+}
+
+.--hero-price {
+  /* margin-top: -10px; */
   padding: 0 10px;
   font-size: 0.6rem;
 }
 
 .bold {
   font-weight: bold;
+  color: #ED1D24;
 }
 
 @media (width < 325px) {
@@ -197,8 +231,13 @@ section {
 @media(width<=425px) {
   .--logo img {
     transition: 0.3s ease;
-    height: 40px;
-    width: 150px;
+    height: 28px;
+    width: 87px;
+  }
+
+  .--Hero img {
+    max-width: 250px;
+    margin: 0;
   }
 
 }
