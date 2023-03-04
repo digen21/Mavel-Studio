@@ -11,6 +11,7 @@ export default [
         },
         location: "Online",
         openSpots: 0,
+        link: "https://youtu.be/IcZZ-29FumQ"
     },
     {
         id: 2,
@@ -24,6 +25,7 @@ export default [
         },
         location: "Online",
         openSpots: 27,
+        link: "https://youtu.be/HSzx-zryEgM"
     },
     {
         id: 3,
@@ -37,6 +39,7 @@ export default [
         },
         location: "Online",
         openSpots: 3,
+        link: "https://youtu.be/wKtcmiifycU"
     },
     {
         id: 3,
@@ -50,5 +53,6 @@ export default [
         },
         location: "Online",
         openSpots: 0,
+        link: "https://youtu.be/JOddp-nlNvQ"
     }
 ]
