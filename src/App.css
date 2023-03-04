@@ -186,6 +186,11 @@ section {
   margin-top: -10px;
 }
 
+.--card-footer a {
+  user-select: none;
+}
+
+
 .--trailer-btn {
   margin-right: 10px;
   padding: 3px 8px;
